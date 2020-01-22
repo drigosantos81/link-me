@@ -1,5 +1,5 @@
 body {
-    background-image: url('../images/bg.jpg');
+    background-image: url('../images/bg.png');
     /* Cover na imagem da tela (justa ao tamanho */
     background-size: cover;
     -webkit-background-size: cover;
@@ -7,10 +7,6 @@ body {
     -o-background-size: cover;
     text-align: center;
     color: white;
-    /*opacity: 50%;
-    opacity:0.20;
-	-moz-opacity: 0.20;
-	filter: alpha(opacity=20); */
 }
 
 .profile {
@@ -18,7 +14,7 @@ body {
     box-shadow: 0 0 160px 0 rgba(242, 5, 68, 95);
     border-radius: 60%;
     padding: 2px;
-    width: 25%;
+    width: 12%;
 }
 
 .text {
