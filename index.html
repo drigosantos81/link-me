@@ -11,25 +11,27 @@
 </head>
 <body>
     <header>
-        
 
         <div class="container">
             <figure class="space-top">
                 <img class="profile" src="./images/Perfil.jpg" alt="Foto de Rodrigo ">
                 <figcaption>
-                    <a class="text">Rodrigo Emanuel</a>
-                </figcaption>     
+                    <p class="text">Desenvolvedor Web & Mobile</p>
+                    <p></p>
+                    <a class="btn btn-light" href="https://www.instagram.com/drigosantos/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                </figcaption>  
+
             </figure>
-            <p class="text">Desenvolvedor Web & Mobile</p>
+            
 
             <div class="row">
                 <div class="col-md-3 col-sm-12 space">
                     <a class="btn btn-light btn-block" href="https://api.whatsapp.com/send?phone=5571991056068&text=Olá!&source=&data=" target="_blank"><i class="fab fa-whatsapp"></i> whatsapp</a>
                 </div>
 
-                <div class="col-md-3 col-sm-12 space">
+                <!-- <div class="col-md-2 col-sm-12 space">
                     <a class="btn btn-light btn-block" href="https://www.instagram.com/drigosantos/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
-                </div>
+                </div> -->
 
                 <div class="col-md-3 col-sm-12 space">
                     <a class="btn btn-light btn-block" href="https://github.com/drigosantos81" target="_blank"><i class="fab fa-github"></i> Github</a>
@@ -37,18 +39,41 @@
 
                 <div class="col-md-3 col-sm-12 space">
                     <a class="btn btn-light btn-block" href="https://www.linkedin.com/in/rodrigo-emanuel-8505b420/" target="_blank"><i class="fab fa-linkedin-in"></i> Linkedin</a>
-                </div>            
+                </div>
+                
+                <div class="col-md-3 col-sm-12 space">
+                    <button type="button" class="btn btn-light btn-block" data-toggle="modal" data-target="#telaEmail">
+                        <i class="fas fa-envelope-square"></i> Envie uma mensagem
+                    </button>
+                </div>
             
             </div>
         </div>
 
         <!-- <a class="btn btn-light btn-block" href="drigosantos@gmail.com">Contatos</a> -->
         
-        
-        
-        
-        
     </header>
+
+    <!-- Modal -->
+    <div class="modal fade" id="telaEmail" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Escreva sua mensagem</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                    <div class="modal-body">
+                        <input type="email" class="form-control space-margin" id="areaTxt" placeholder="informe seu e-mail...">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escreva sua mensagem..."></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Enviar</button>
+                    </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

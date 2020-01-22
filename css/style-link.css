@@ -70,6 +70,10 @@ header {
     padding-top: 25px;
 }
 
+.space-margin {
+    margin-bottom: 10px;
+}
+
 /* .btn {
     border: 1px;
     padding: .375rem .75rem;
