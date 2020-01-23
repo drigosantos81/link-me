@@ -9,7 +9,7 @@ Prof. **Victor Romário**.
 
 # Recursos utilizados 
 > HTML;   
->CSS;  
+> CSS;  
 > JavaScript;  
 > Bootstrap;   
 > Github;   
