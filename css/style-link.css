@@ -79,12 +79,34 @@ header {
     margin-bottom: 10px;
 }
 
-/* .btn {
-    border: 1px;
-    padding: .375rem .75rem;
-    border-radius: .25rem;
-    color: #FFF;
-    background-color: brown;
-    border-color: #007bff;
-    text-decoration: none;
-} */
+.techs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 20px;
+}
+
+.techs-icon {
+    background: #FFF;
+    box-shadow: 0 0 160px 0 rgba(242, 5, 68, 95);
+    border-radius: 25% 10%;
+    padding: 2px;
+    width: 30%;
+}
+
+.footer {
+    background-color: #EEEEEE;
+    height: 35px;
+    padding: 30px 220px;
+    padding-top: 30px;
+    padding-bottom: 63px;
+    text-align: center;
+    color: #999999;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.col-md-3 {
+    flex: 0 0 25%;
+    max-width: 70% !important;
+}
